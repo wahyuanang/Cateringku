@@ -1,16 +1,16 @@
-import { Routes, Route } from 'react-router-dom';
-import { useEffect } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import WhatsAppButton from './components/WhatsAppButton';
-import Home from './pages/Home';
-import Profile from './pages/Profile';
-import NasiBox from './pages/NasiBox';
-import MenuBoxSyukuran from './pages/MenuBoxSyukuran';
-import PaketCatering from './pages/PaketCatering';
-import Tumpeng from './pages/Tumpeng';
-import Galeri from './pages/Galeri';
-import Kontak from './pages/Kontak';
+import { Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
+import Home from "./pages/Home";
+import Profile from "./pages/Profile";
+import NasiBox from "./pages/NasiBox";
+import MenuBoxSyukuran from "./pages/MenuBoxSyukuran";
+import PaketCatering from "./pages/PaketCatering";
+import Tumpeng from "./pages/Tumpeng";
+import Galeri from "./pages/Galeri";
+import Kontak from "./pages/Kontak";
 
 function App() {
   useEffect(() => {

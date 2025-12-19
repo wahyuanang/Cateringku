@@ -8,7 +8,7 @@
     margin: 0;
     min-width: 320px;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
@@ -18,19 +18,19 @@
   .btn-primary {
     @apply bg-primary hover:bg-secondary text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg;
   }
-  
+
   .btn-outline {
     @apply border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-6 py-3 rounded-full transition-all duration-300;
   }
-  
+
   .section-title {
     @apply text-3xl md:text-4xl font-bold text-center mb-8 text-brown-800;
   }
-  
+
   .card {
     @apply bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2;
   }
-  
+
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
